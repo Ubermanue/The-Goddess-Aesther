@@ -491,9 +491,9 @@ const yawa = lubot[Math.floor(Math.random() * lubot.length)];
 															return console.error('Failed to get user info:', err);
 													}
 													const name = userInfo[leaverID].name;
-													const type = (event.author == event.logMessageData.leftParticipantFbId) ? "left the group." : "was kicked by Admin of the group";
+													const type = (event.author == event.logMessageData.leftParticipantFbId) ? "𝗟𝗘𝗙𝗧(－－〆) the group." : "was 𝗞𝗜𝗖𝗞𝗘𝗗(；一_一) by Admin of the group";
 
-													const link = ["https://i.imgur.com/dVw3IRx.gif"];
+													const link = ["https://i.postimg.cc/52w3yvJM/01d5523c79f393d76db837e97aad2331.jpg"];
 													const gifPath = __dirname + "/cache/leave.gif";
 
 													// Assuming the file exists, send the message with the GIF
