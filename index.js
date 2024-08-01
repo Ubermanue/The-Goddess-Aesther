@@ -493,7 +493,7 @@ const yawa = lubot[Math.floor(Math.random() * lubot.length)];
 													const name = userInfo[leaverID].name;
 													const type = (event.author == event.logMessageData.leftParticipantFbId) ? "𝗟𝗘𝗙𝗧(－－〆) the group." : "was 𝗞𝗜𝗖𝗞𝗘𝗗(；一_一) by Admin of the group";
 
-													const link = ["https://i.postimg.cc/52w3yvJM/01d5523c79f393d76db837e97aad2331.jpg"];
+													const link = ["https://i.postimg.cc/yN3Z2wTj/9c8c67bb187d650ad0f18545f7567113.gif","https://i.postimg.cc/9fsGMWfs/edfa4820172e9b0a2483cf4d067ee8a6.gif"];
 													const gifPath = __dirname + "/cache/leave.gif";
 
 													// Assuming the file exists, send the message with the GIF
