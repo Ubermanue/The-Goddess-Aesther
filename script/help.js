@@ -18,7 +18,7 @@ module.exports.run = async function({
   prefix
 }) {
   const input = args.join(' ').trim();
-  const pages = 30;
+  const pages = 50;
   const commands = enableCommands[0].commands;
   const eventCommands = enableCommands[1].handleEvent;
 
