@@ -31,7 +31,7 @@ module.exports.run = async function({ api, event, args }) {
     }
     
     try {
-        const { data } = await axios.get(`https://c-v1.onrender.com/api/bard?prompt=${encodeURIComponent(input)}`);
+        const { data } = await axios.get(`https://sandipbaruwal.onrender.com/gemini?prompt=${encodeURIComponent(input)}`);
         let response = data.answer;
         
         // Replace characters with stylized characters from fonts
