@@ -31,8 +31,8 @@ module.exports.run = async function({ api, event, args }) {
     }
     
     try {
-        const { data } = await axios.get(`https://openapi-idk8.onrender.com/blackbox?chat=${encodeURIComponent(input)}`);
-        let response = data.response;
+        const { data } = await axios.get(`https://c-v1.onrender.com/api/bard?prompt=${encodeURIComponent(input)}`);
+        let response = data.answer;
         
         // Replace characters with stylized characters from fonts
         response = response.split('').map(char => {
